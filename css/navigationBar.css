@@ -1,25 +1,31 @@
 nav {
-    background-color: #3b383c;
+  background-color: #3b383c;
+}
+
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+  /* 讓他沒有list左邊的黑點 */
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+
+nav ul li a {
+  color: rgb(167, 167, 167);
+  /* 把下底線關掉 */
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.25s ease;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+@media screen and (max-width: 625px) {
+  nav ul{
+    flex-direction: column;
   }
-  
-  nav ul {
-    display: flex;
-    padding-left: 1rem;
-    /* 讓他沒有list左邊的黑點 */
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    padding: 0.5rem 0.75rem;
-  }
-  
-  nav ul li a {
-    color: rgb(167, 167, 167);
-    /* 把下底線關掉 */
-    text-decoration: none;
-    font-size: 1.25rem;
-    transition: all 0.25s ease;
-  }
-  nav ul li a:hover {
-    color: white;
-  }
+}
