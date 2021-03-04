@@ -1,0 +1,21 @@
+main {
+  width: 100%;
+  display: flex;
+}
+section{
+  font-size: 1.2rem;
+}
+section.left,
+section.right {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* align->設定跟direction垂直方向 */
+  align-items: center;
+}
+
+section.right h4 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+

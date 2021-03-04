@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  /* 轉換到其他網頁的時候, 就給其他網頁套active class */
+  .active {
+    color: white;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: normal;
+  }
+  

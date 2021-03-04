@@ -1,0 +1,15 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+._375formula{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+ol{
+    padding-left: 1.5rem;
+}
